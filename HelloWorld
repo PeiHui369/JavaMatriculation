@@ -1,0 +1,33 @@
+//Author: Lee Pei Hui
+//Date: 20/10/2022
+//File: Hello World
+
+/* Simple java program that print
+"Hello World"
+to the screen.
+ */
+
+class HelloWorld
+{
+        //A classic Hello World program
+    public static void main(String[] args)
+    {
+        System.out.println("Hello World!");
+    }
+}
+
+
+~NOTE~
+Comment
+a. //Line
+b. /* Block */
+
+public //Access modifier
+static //Method is accessible & usable even though no objects of the class exist
+void //Declares nothing would be returned from method. Method can return any primitive/object
+{Method content}
+
+System //name of Java utility class
+out //object belongs to System class
+println //send any String to console
+
