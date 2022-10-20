@@ -1,0 +1,82 @@
+/*
+PART 3: Display Correct Output using Different Output Statement
+System.out.print(arg) //prints out argument
+System.out.println(arg) //prints out argument & ends the line
+System.out.printf(format, arg) //gives more control
+ */
+ 
+ /*TASK 1: Use Standard Output Statement to Display Message*/
+
+<Demo_print1.java>
+ //Java code to illustrate print() 
+ 
+ class Demo_print1 {
+    public static void main(String[] args){
+        //using print()
+        //all are printed in the
+        //same line
+        System.out.print("Welcome ");
+        System.out.print("To! ");
+        System.out.print("Java Programming! ");
+    }
+}
+>> Welcome To! Java Programming! 
+
+<Demo_print2>
+//Java code to illustrate println()
+
+class Demo_print2 {
+    public static void main(String[] args){
+        System.out.println("Welcome ");
+        System.out.println("To! ");
+        System.out.println("Java Programming! ");
+    }
+}
+
+>> Welcome 
+To! 
+Java Programming! 
+
+<Demo_print3>
+class Demo_print3 {
+    public static void main(String[] args){
+        //this prints Hello!, Hello World! on the same line
+        //and Hello Friends! on a different line
+
+        System.out.print("Hello!");
+        System.out.println("Hello World!");
+        System.out.println("Hello Friends!"); //or System.out.print("Hello Friends!");
+    }
+}
+>>Hello! Hello World!
+Hello Friends!
+
+//TASK 2: Displaying Formatted Output Using Escape Sequence \n and \t
+<Test>
+// Control sequence \\ used for displaying a backslash as output
+public class Test {
+    public static void main(String[] args){
+        System.out.println("Hi all's, welcome to \"Java Class\".");
+    }
+}
+>> Hi all's, welcome to "Java Class".
+
+<Test2>
+//Java code for the escape sequence \t
+public class Test2 {
+    public static void main(String[] args){
+        System.out.println("Good Morning\t KMKt! ");
+    }
+}
+>> Good Morning	 KMKt! 
+
+<Test3>
+//Java code for the escape sequence \n
+public class Test3 {
+    public static void main(String[] args){
+        System.out.println("Good Morning KMKt!\n How are you all?   ");
+    }
+}
+>>Good Morning KMKt!
+ How are you all?   
+
